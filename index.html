@@ -3,35 +3,57 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>Sanvedya Neware — Portfolio</title>
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
   <meta name="theme-color" content="#0b0b10">
 </head>
-<body>
-  <!-- Animated background -->
-  <div class="animated-bg" aria-hidden="true"></div>
 
+<body>
+
+  <!-- Header -->
   <header class="site-header">
     <div class="container header-inner">
       <div class="site-brand">
         <h1>Sanvedya Neware</h1>
-        <p class="tagline">Computer Science Engineering Student · Aspiring Software Engineer</p>
+        <p class="tagline">
+          Computer Science Engineering Student · Aspiring Software Engineer
+        </p>
       </div>
-      <nav class="nav" aria-label="Primary">
-        <a class="btn" href="assets/Resume (1).pdf" download>Download Resume</a>
+
+      <nav class="nav">
+        <a class="btn" href="Sanvedya_Neware.pdf" download>
+          Download Resume
+        </a>
       </nav>
     </div>
   </header>
 
+  <!-- Main Content -->
   <main class="container">
+
+    <!-- Hero -->
     <section class="hero">
       <div class="hero-card">
-        <img src="assets/images/profile.svg" alt="Sanvedya Neware" class="profile">
+        <img src="profile.svg" alt="Sanvedya Neware" class="profile">
+
         <div class="hero-body">
           <h2>Hi, I’m Sanvedya — a Computer Science Engineering student.</h2>
-          <p class="lead">I am a Computer Science Engineering student with a strong interest in software development, data structures, and core computer science fundamentals. I enjoy learning new technologies, building projects, and strengthening my problem-solving skills.</p>
+
+          <p class="lead">
+            I am a Computer Science Engineering student with a strong interest in
+            software development, data structures, and core computer science
+            fundamentals. I enjoy learning new technologies, building projects,
+            and strengthening my problem-solving skills.
+          </p>
+
           <div class="hero-actions">
             <a class="btn primary" href="#projects">View Projects</a>
             <a class="btn ghost" href="#contact">Contact</a>
@@ -40,194 +62,144 @@
       </div>
     </section>
 
+    <!-- Projects -->
     <section id="projects" class="section projects">
       <h3>Projects</h3>
+
       <div class="grid">
         <article class="card">
           <div class="thumb placeholder">HTML</div>
           <h4>Personal Portfolio Website</h4>
-          <p>A responsive portfolio built using HTML and CSS and deployed via GitHub Pages.</p>
+          <p>
+            A responsive portfolio built using HTML and CSS and deployed via
+            GitHub Pages.
+          </p>
           <p class="tags">HTML • CSS • GitHub Pages</p>
-          <p class="muted"><a href="https://github.com/Sonu0011Blue" target="_blank" rel="noopener">Source</a></p>
+          <p class="muted">
+            <a href="https://github.com/Sonu0011Blue" target="_blank" rel="noopener">
+              Source
+            </a>
+          </p>
         </article>
 
         <article class="card">
           <div class="thumb placeholder">C</div>
           <h4>C Programming Practice Programs</h4>
-          <p>A collection of C programs covering loops, arrays, functions, and basic problem-solving concepts.</p>
+          <p>
+            A collection of C programs covering loops, arrays, functions, and
+            problem-solving fundamentals.
+          </p>
           <p class="tags">C • Problem Solving</p>
         </article>
 
         <article class="card">
           <div class="thumb placeholder">DS</div>
           <h4>Data Structures Practice</h4>
-          <p>Implementation and practice of fundamental data structures as part of academic learning.</p>
+          <p>
+            Implementation and practice of core data structures as part of
+            academic learning.
+          </p>
           <p class="tags">Data Structures • Algorithms</p>
         </article>
       </div>
     </section>
 
-    <section id="education" class="section education">
+    <!-- Education -->
+    <section id="education" class="section">
       <h3>Education</h3>
-      <p><strong>Bachelor of Science in Data Science (Currently Pursuing)</strong><br>
-      Indian Institute of Technology Madras (IITM)</p>
+      <p>
+        <strong>Bachelor of Science in Data Science (Currently Pursuing)</strong><br>
+        Indian Institute of Technology Madras (IIT Madras)
+      </p>
     </section>
 
+    <!-- Skills -->
     <section id="skills" class="section skills">
       <h3>Technical Skills</h3>
+
       <div class="skill-columns">
         <div class="skill-col">
           <h4>Programming Languages</h4>
           <p>Python • Java • JavaScript • C • C++ (Basic)</p>
 
           <h4>Problem Solving & Competitive Programming</h4>
-          <p>LeetCode: Solved 250+ problems (Data Structures & Algorithms). Participated in Hackathons.</p>
+          <p>
+            LeetCode: Solved 250+ problems (DSA). Participated in Hackathons.
+          </p>
 
           <h4>Data Science & Machine Learning</h4>
-          <p>NumPy • Pandas • Matplotlib • Seaborn • Scikit-learn • SciPy • Data Preprocessing & Cleaning • EDA • Data Visualization • Model Training & Selection • Hyperparameter Tuning</p>
+          <p>
+            NumPy • Pandas • Matplotlib • Seaborn • Scikit-learn • EDA • Model Training
+          </p>
         </div>
 
         <div class="skill-col">
-          <h4>Deep Learning & AI (Beginner–Intermediate)</h4>
-          <p>TensorFlow / Keras (Basics) • PyTorch • CNNs • RNNs • Bidirectional RNNs • Activation & Loss Functions • Optimization Techniques • GANs • DDPM</p>
+          <h4>Deep Learning & AI</h4>
+          <p>
+            TensorFlow/Keras • PyTorch • CNNs • RNNs • GANs • DDPM
+          </p>
 
-          <h4>Web Development & Frameworks</h4>
-          <p>Flask • HTML • CSS • Jinja2 Templates • Vue.js • SQLAlchemy</p>
+          <h4>Web Development</h4>
+          <p>HTML • CSS • Flask • Jinja2 • Vue.js • SQLAlchemy</p>
 
           <h4>Databases & Cloud</h4>
-          <p>MySQL • SQLite • Google Cloud Platform (GCP) • Microsoft Azure</p>
-
-          <h4>Tools, Software & OS</h4>
-          <p>Git & GitHub • Jupyter Notebook • VS Code • Visual Studio • Google Colab • Linux (Ubuntu, CentOS) • Linux System Administration (Basics)</p>
+          <p>MySQL • SQLite • GCP • Microsoft Azure</p>
         </div>
       </div>
     </section>
 
-    <section id="courses" class="section courses">
-      <h3>Online Courses & Workshops</h3>
-      <ul>
-        <li>IBM — Introduction to Deep Learning & Neural Networks with Keras</li>
-        <li>Linux Administration — User management, file systems, permissions, process management, and basic shell commands</li>
-        <li>Foundation in Data Science — IIT Madras (Online BS Degree)</li>
-      </ul>
-    </section>
-
-    <section id="certifications" class="section certifications">
+    <!-- Certifications -->
+    <section id="certifications" class="section">
       <h3>Certifications</h3>
+
       <details class="collapsible">
         <summary>Show certifications</summary>
         <ul>
-          <li><strong>Foundational Level in Programming and Data Science</strong> — IIT Madras — CODEx (2024)</li>
-          <li><strong>Complete Linux Training: Course to Get Your Dream IT Job</strong> — Udemy (2024)</li>
-          <li><strong>Workshop on Understanding Google Cloud Platform</strong> — IIT Madras (2025)</li>
-          <li><strong>Workshop on Deploy ML Apps using GCP</strong> — IIT Madras (2025)</li>
-          <li><strong>Workshop on Implementing ML Techniques using NumPy</strong> — IIT Madras (2025)</li>
-          <li><strong>Workshop on Code, Commit, Collaborate: Git & GitHub</strong> — IIT Madras (2025)</li>
-          <li><strong>Applied Vibe Coding</strong> — IIT Madras (2025)</li>
+          <li>Foundational Level in Programming and Data Science — IIT Madras</li>
+          <li>Complete Linux Training — Udemy</li>
+          <li>Google Cloud Platform Workshops — IIT Madras</li>
         </ul>
       </details>
     </section>
 
-    <section id="awards" class="section awards">
-      <h3>Awards & Achievements</h3>
-      <details class="collapsible">
-        <summary>Show awards & achievements</summary>
-        <ul>
-          <li><strong>LeetCode Weekly & Biweekly Contests</strong> — Participant; Ranked in the Top 28.47% worldwide (2024–2025)</li>
-          <li><strong>Top Grade</strong> — Statistics I (IIT Madras Online Foundation Program) (2024)</li>
-          <li>Top Grades across multiple IIT Madras programs (2024–2025)</li>
-        </ul>
-      </details>
-    </section>
-
-    <section id="participation" class="section participation">
-      <h3>Participation — Hackathons, Workshops & Seminars</h3>
-      <details class="collapsible">
-        <summary>Show events & workshops</summary>
-        <ul>
-          <li>LeetCode Weekly & Biweekly Contests — Ranked in the Top 28.47% worldwide (2024–2025)</li>
-          <li>Applied Vibe Coding — IIT Madras (2025)</li>
-          <li>Microsoft Azure Fundamentals (AZ-900 Series) — IIT Madras (2025)</li>
-          <li>DSATHON 2.0 — CodeCrafters, IIT Madras BS (2025)</li>
-          <li>Decode DSA: Unlock The Power — Guidance session (2025)</li>
-          <li>Tracing the Invisible – OSINT & Digital Footprint — Saranda House, IIT Madras (2025)</li>
-          <li>Wadhwani Ignite Bootcamp — JITSIE × IIT Madras (2025)</li>
-          <li>Quantageddon 2.0 — Team Paradox (2025)</li>
-          <li>Reinforcement Learning for Aerial Robotics — Kariranga x Bandipur Group (2025)</li>
-          <li>DataVista – A Cosmic Data Analytics Competition (Paradox 2025) — Team Paradox (2025)</li>
-          <li>Power BI Workshop — Saranda House, IIT Madras (2025)</li>
-          <li>Online Project Development Bootcamp (Sep 2025 Term) — IIT Madras BS Degree Program (2025)</li>
-          <li>Maha-Samvaad – Season 2: Green Growth vs. Degrowth — Veritas & Nature Nurture Society (2025)</li>
-          <li>Algo Wars 2025 (ALGO-WARS-4) — CodeCrafters (2025)</li>
-          <li>Inter-House Chess Championship (Paradox’25) — Team Paradox (2025)</li>
-        </ul>
-      </details>
-    </section>
-
+    <!-- Contact -->
     <section id="contact" class="section contact">
       <h3>Contact</h3>
-      <p>If you'd like to get in touch, send an email or use the form below.</p>
+
       <form id="contact-form">
         <label for="name">Name</label>
-        <input id="name" name="name" placeholder="Your name (editable)" />
+        <input id="name" name="name" placeholder="Your name">
 
         <label for="email">Email</label>
-        <input id="email" name="email" type="email" placeholder="you@example.com" />
+        <input id="email" name="email" type="email" placeholder="you@example.com">
 
         <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" placeholder="Write a short message..."></textarea>
+        <textarea id="message" rows="5" placeholder="Write your message..."></textarea>
 
         <button type="submit" class="btn primary">Send</button>
       </form>
-      <p class="muted">Or email directly: <a href="mailto:sanvedya@example.com">sanvedya@example.com</a></p>
+
+      <p class="muted">
+        Or email directly:
+        <a href="mailto:sanvedya.neware@gmail.com">sanvedya.neware@gmail.com</a>
+      </p>
     </section>
+
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
-      <p>Built with ❤️ — Sanvedya Neware • <a href="https://github.com/Sonu0011Blue" target="_blank" rel="noopener">GitHub</a></p>
+      <p>
+        Built with ❤️ — Sanvedya Neware ·
+        <a href="https://github.com/Sonu0011Blue" target="_blank" rel="noopener">
+          GitHub
+        </a>
+      </p>
     </div>
   </footer>
 
-  <script>
-    // Smooth focus for anchor links
-    document.addEventListener('click', function(e){
-      const a = e.target.closest('a[href^="#"]');
-      if(a){
-        const id = a.getAttribute('href').slice(1);
-        const el = document.getElementById(id);
-        if(el){
-          e.preventDefault();
-          el.scrollIntoView({behavior:'smooth', block:'start'});
-          el.setAttribute('tabindex','-1');
-          el.focus({preventScroll:true});
-          window.setTimeout(()=>el.removeAttribute('tabindex'),1000);
-        }
-      }
-    });
-
-    // Enhance details elements for animation
-    document.querySelectorAll('details.collapsible').forEach(d=>{
-      d.addEventListener('toggle', ()=>{
-        // no-op placeholder: CSS handles transition via max-height
-      });
-    });
-
-    // Contact form uses mailto
-    document.addEventListener('DOMContentLoaded',function(){
-      const form=document.getElementById('contact-form');
-      if(form){
-        form.addEventListener('submit',function(e){
-          e.preventDefault();
-          const name=document.getElementById('name').value||'';
-          const email=document.getElementById('email').value||'';
-          const message=document.getElementById('message').value||'';
-          const subject=encodeURIComponent('Portfolio contact from '+(name||email||'Website'));
-          const body=encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+message);
-          window.location.href = 'mailto:sanvedya@example.com?subject='+subject+'&body='+body;
-        });
-      }
-    });
-  </script>
+  <!-- JS -->
+  <script src="script.js"></script>
 </body>
 </html>
