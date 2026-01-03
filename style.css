@@ -184,6 +184,33 @@ body {
   color: var(--accent);
   text-decoration: none;
 }
+/* HARD SEPARATION FIX */
+.hero-cta-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;               /* forces space */
+}
+
+/* Buttons row */
+.hero-actions {
+  display: flex;
+  gap: 14px;
+}
+
+/* Links row */
+.hero-links {
+  display: block;          /* NOT inline */
+  line-height: 1.4;
+  font-size: 0.9rem;
+}
+
+/* Safety reset */
+.hero-links a,
+.hero-links span {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
 
 /* Mobile */
 @media (max-width: 720px) {
