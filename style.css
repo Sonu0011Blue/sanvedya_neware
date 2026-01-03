@@ -10,7 +10,7 @@
 body {
   margin: 0;
   font-family: Inter, system-ui, sans-serif;
-  background: var(--bg);
+  background: radial-gradient(circle at top, #11111a, #06060a);
   color: #e6eef8;
 }
 
@@ -38,48 +38,86 @@ body {
 .btn {
   padding: 10px 16px;
   border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.15);
   text-decoration: none;
-  border: 1px solid rgba(255,255,255,0.1);
   color: white;
+  font-weight: 500;
 }
 
 .btn.primary {
-  background: linear-gradient(90deg, var(--accent), #5e3bff);
+  background: linear-gradient(135deg, var(--accent), #5e3bff);
   border: none;
 }
 
-/* Hero */
+.btn.ghost {
+  background: transparent;
+}
+
+/* HERO */
 .hero {
+  min-height: 70vh;
   display: flex;
-  gap: 40px;
   align-items: center;
 }
 
-.profile {
-  width: 150px;
-  border-radius: 20px;
-  background: var(--panel);
-  padding: 10px;
+.hero-left {
+  max-width: 680px;
 }
 
-.hero-text h2 {
-  font-size: 2.2rem;
-  margin-bottom: 10px;
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #7c5cff, #5e3bff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28px;
+  box-shadow: 0 10px 30px rgba(124, 92, 255, 0.35);
 }
 
-.hero-text p {
-  max-width: 600px;
+.avatar span {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.hero-title {
+  font-size: 2.6rem;
+  line-height: 1.15;
+  margin: 0 0 14px;
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.hero-links {
+  font-size: 0.9rem;
   color: var(--muted);
 }
 
 .hero-links a {
-  margin-right: 16px;
   color: var(--accent);
+  text-decoration: none;
+}
+
+.hero-links span {
+  margin: 0 6px;
 }
 
 /* Sections */
 .section {
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 .section-title {
@@ -95,12 +133,7 @@ body {
   margin-bottom: 16px;
 }
 
-.card-list {
-  display: grid;
-  gap: 16px;
-}
-
-/* Skill Pills */
+/* Grids */
 .skill-grid,
 .project-grid {
   display: grid;
@@ -108,6 +141,7 @@ body {
   gap: 24px;
 }
 
+/* Pills */
 .pill-list {
   list-style: none;
   padding: 0;
@@ -146,8 +180,11 @@ body {
 /* Mobile */
 @media (max-width: 720px) {
   .hero {
-    flex-direction: column;
-    align-items: flex-start;
+    min-height: auto;
+    padding-top: 40px;
+  }
+
+  .hero-title {
+    font-size: 2.1rem;
   }
 }
-
