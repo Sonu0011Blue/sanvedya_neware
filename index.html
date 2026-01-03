@@ -23,20 +23,33 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-cta-stack">
-  <div class="hero-actions">
-    <a href="#projects" class="btn primary">View Projects</a>
-    <a href="#contact" class="btn ghost">Contact</a>
-  </div>
+  <div class="hero-content">
 
-  <div class="hero-links">
-    <a href="mailto:sanvedyaneware11@gmail.com">Email</a>
-    <span>·</span>
-    <a href="https://www.linkedin.com/in/sanvedya-neware-a434a82ba/" target="_blank">LinkedIn</a>
-    <span>·</span>
-    <a href="https://github.com/Sonu0011Blue" target="_blank">GitHub</a>
+    <h1 class="hero-title">
+      Hi, I’m Sanvedya 👋
+    </h1>
+
+    <p class="hero-subtitle">
+      Computer Science Engineer focused on Machine Learning, Deep Learning,
+      and building clean, scalable software systems.
+    </p>
+
+    <div class="hero-cta-stack">
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn ghost">Contact</a>
+      </div>
+
+      <div class="hero-links">
+        <a href="mailto:sanvedyaneware11@gmail.com">Email</a>
+        <span>·</span>
+        <a href="https://www.linkedin.com/in/sanvedya-neware-a434a82ba/" target="_blank">LinkedIn</a>
+        <span>·</span>
+        <a href="https://github.com/Sonu0011Blue" target="_blank">GitHub</a>
+      </div>
+    </div>
+
   </div>
-</div>
 </section>
 
 <!-- EDUCATION -->
@@ -59,7 +72,6 @@
   <h2 class="section-title">Technical Skills</h2>
 
   <div class="grid">
-
     <div class="card">
       <h3>Programming</h3>
       <ul class="pill-list">
@@ -91,7 +103,6 @@
         <li>Git</li><li>GCP</li>
       </ul>
     </div>
-
   </div>
 </section>
 
@@ -100,7 +111,6 @@
   <h2 class="section-title">Projects</h2>
 
   <div class="grid">
-
     <div class="card">
       <h3>Smart Parking Management System</h3>
       <p>
@@ -118,19 +128,18 @@
       </p>
       <p class="muted">Python · Scikit-learn · Streamlit</p>
     </div>
-
   </div>
 </section>
 
 <!-- CONTACT -->
-<section class="section contact">
+<section id="contact" class="section contact">
   <h2 class="section-title">Contact</h2>
 
   <form id="contact-form">
-    <input id="name" placeholder="Your name" required>
-    <input id="email" type="email" placeholder="Your email" required>
-    <textarea id="message" rows="4" placeholder="Your message"></textarea>
-    <button class="btn primary">Send Message</button>
+    <input id="name" name="name" placeholder="Your name" required>
+    <input id="email" name="email" type="email" placeholder="Your email" required>
+    <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+    <button class="btn primary" type="submit">Send Message</button>
   </form>
 </section>
 
