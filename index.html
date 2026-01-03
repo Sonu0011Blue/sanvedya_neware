@@ -6,7 +6,7 @@
   <title>Sanvedya Neware — Portfolio</title>
 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,12 +14,8 @@
 
 <header class="site-header">
   <div class="container header-inner">
-    <div>
-      <h1 class="logo">Sanvedya Neware</h1>
-      <p class="tagline">Data Science · Machine Learning · Backend Development</p>
-    </div>
-
-    <a class="btn primary" href="Sanvedya_Neware.pdf" download>Download Resume</a>
+    <span class="brand">SN</span>
+    <a class="btn ghost" href="Sanvedya_Neware.pdf" download>Resume</a>
   </div>
 </header>
 
@@ -27,66 +23,51 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-left">
-
-    <div class="avatar">
-      <span>SN</span>
-    </div>
-
-    <h2 class="hero-title">Hi, I’m Sanvedya.</h2>
+  <div class="hero-content">
+    <h1 class="hero-title">Sanvedya Neware</h1>
 
     <p class="hero-subtitle">
-      Computer Science & Data Science undergraduate focused on
-      <strong>Machine Learning</strong>, <strong>Backend Development</strong>,
-      and building reliable real-world systems.
+      Computer Science & Data Science undergraduate building
+      <strong>machine learning systems</strong> and
+      <strong>backend applications</strong>.
     </p>
 
-    <div class="hero-actions">
-      <a href="#projects" class="btn primary">View Projects</a>
-      <a href="#contact" class="btn ghost">Contact</a>
-    </div>
-
-    <div class="hero-links">
-      <a href="mailto:sanvedyaneware11@gmail.com">Email</a>
-      <span>·</span>
-      <a href="https://www.linkedin.com/in/sanvedya-neware-a434a82ba/" target="_blank">LinkedIn</a>
-      <span>·</span>
-      <a href="https://github.com/Sonu0011Blue" target="_blank">GitHub</a>
-    </div>
-
+    <a href="#projects" class="btn primary hero-cta">
+      View Projects
+    </a>
   </div>
 </section>
 
 <!-- EDUCATION -->
 <section class="section">
-  <h3 class="section-title">Education</h3>
+  <h2 class="section-title">Education</h2>
 
   <div class="card">
-    <h4>Bachelor of Science in Data Science</h4>
-    <p class="muted">IIT Madras — Online BS Degree (Currently Pursuing)</p>
+    <h3>B.S. in Data Science</h3>
+    <p class="muted">IIT Madras — Online BS Degree (Pursuing)</p>
   </div>
 
   <div class="card">
-    <h4>Bachelor of Technology in Computer Science & Engineering</h4>
-    <p class="muted">Government College of Engineering, Kolhapur (Currently Pursuing)</p>
+    <h3>B.Tech in Computer Science & Engineering</h3>
+    <p class="muted">Government College of Engineering, Kolhapur (Pursuing)</p>
   </div>
 </section>
 
 <!-- SKILLS -->
 <section class="section">
-  <h3 class="section-title">Technical Skills</h3>
+  <h2 class="section-title">Technical Skills</h2>
 
-  <div class="skill-grid">
+  <div class="grid">
 
     <div class="card">
-      <h4>Programming</h4>
+      <h3>Programming</h3>
       <ul class="pill-list">
         <li>Python</li><li>Java</li><li>C</li><li>C++</li><li>JavaScript</li>
       </ul>
     </div>
 
     <div class="card">
-      <h4>Machine Learning</h4>
+      <h3>Machine Learning</h3>
       <ul class="pill-list">
         <li>NumPy</li><li>Pandas</li><li>Scikit-learn</li>
         <li>EDA</li><li>Feature Engineering</li>
@@ -94,18 +75,19 @@
     </div>
 
     <div class="card">
-      <h4>Deep Learning & AI</h4>
+      <h3>Deep Learning</h3>
       <ul class="pill-list">
-        <li>TensorFlow</li><li>PyTorch</li><li>CNNs</li>
-        <li>RNNs</li><li>GANs</li><li>DDPMs</li>
+        <li>TensorFlow</li><li>PyTorch</li>
+        <li>CNNs</li><li>RNNs</li><li>GANs</li>
       </ul>
     </div>
 
     <div class="card">
-      <h4>Backend & Tools</h4>
+      <h3>Backend & Tools</h3>
       <ul class="pill-list">
-        <li>Flask</li><li>SQLAlchemy</li><li>MySQL</li>
-        <li>SQLite</li><li>Git</li><li>GCP</li>
+        <li>Flask</li><li>SQLAlchemy</li>
+        <li>MySQL</li><li>SQLite</li>
+        <li>Git</li><li>GCP</li>
       </ul>
     </div>
 
@@ -114,11 +96,12 @@
 
 <!-- PROJECTS -->
 <section id="projects" class="section">
-  <h3 class="section-title">Projects</h3>
+  <h2 class="section-title">Projects</h2>
 
-  <div class="project-grid">
+  <div class="grid">
+
     <div class="card">
-      <h4>Smart Parking Management System</h4>
+      <h3>Smart Parking Management System</h3>
       <p>
         Full-stack Flask application for managing vehicle entry, exit,
         parking slots, and real-time occupancy.
@@ -127,23 +110,24 @@
     </div>
 
     <div class="card">
-      <h4>Heart Disease Prediction System</h4>
+      <h3>Heart Disease Prediction System</h3>
       <p>
-        End-to-end ML pipeline with preprocessing, EDA,
-        model training, and Streamlit deployment.
+        End-to-end ML pipeline including preprocessing,
+        EDA, model training, and Streamlit deployment.
       </p>
       <p class="muted">Python · Scikit-learn · Streamlit</p>
     </div>
+
   </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="section contact">
-  <h3 class="section-title">Contact</h3>
+<section class="section contact">
+  <h2 class="section-title">Contact</h2>
 
   <form id="contact-form">
-    <input id="name" placeholder="Your name">
-    <input id="email" type="email" placeholder="Your email">
+    <input id="name" placeholder="Your name" required>
+    <input id="email" type="email" placeholder="Your email" required>
     <textarea id="message" rows="4" placeholder="Your message"></textarea>
     <button class="btn primary">Send Message</button>
   </form>
@@ -152,10 +136,14 @@
 </main>
 
 <footer class="site-footer">
-  <p>© 2026 Sanvedya Neware · Built with ❤️</p>
+  <p>
+    © 2026 Sanvedya Neware ·
+    <a href="mailto:sanvedyaneware11@gmail.com">Email</a> ·
+    <a href="https://www.linkedin.com/in/sanvedya-neware-a434a82ba/" target="_blank">LinkedIn</a> ·
+    <a href="https://github.com/Sonu0011Blue" target="_blank">GitHub</a>
+  </p>
 </footer>
 
 <script src="script.js"></script>
 </body>
 </html>
-
