@@ -3,203 +3,208 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   <title>Sanvedya Neware — Portfolio</title>
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
-
   <meta name="theme-color" content="#0b0b10">
 </head>
 
 <body>
 
-  <!-- Header -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="site-brand">
-        <h1>Sanvedya Neware</h1>
-        <p class="tagline">
-          Computer Science Engineering Student · Aspiring Software Engineer
-        </p>
-      </div>
-
-      <nav class="nav">
-        <a class="btn" href="Sanvedya_Neware.pdf" download>
-          Download Resume
-        </a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Main Content -->
-  <main class="container">
-
-    <!-- Hero -->
-    <section class="hero">
-      <div class="hero-card">
-        <img src="profile.svg" alt="Sanvedya Neware" class="profile">
-
-        <div class="hero-body">
-          <h2>Hi, I’m Sanvedya — a Computer Science Engineering student.</h2>
-
-          <p class="lead">
-            I am a Computer Science Engineering student with a strong interest in
-            software development, data structures, and core computer science
-            fundamentals. I enjoy learning new technologies, building projects,
-            and strengthening my problem-solving skills.
-          </p>
-
-          <div class="hero-actions">
-            <a class="btn primary" href="#projects">View Projects</a>
-            <a class="btn ghost" href="#contact">Contact</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects" class="section projects">
-      <h3>Projects</h3>
-
-      <div class="grid">
-        <article class="card">
-          <div class="thumb placeholder">HTML</div>
-          <h4>Personal Portfolio Website</h4>
-          <p>
-            A responsive portfolio built using HTML and CSS and deployed via
-            GitHub Pages.
-          </p>
-          <p class="tags">HTML • CSS • GitHub Pages</p>
-          <p class="muted">
-            <a href="https://github.com/Sonu0011Blue" target="_blank" rel="noopener">
-              Source
-            </a>
-          </p>
-        </article>
-
-        <article class="card">
-          <div class="thumb placeholder">C</div>
-          <h4>C Programming Practice Programs</h4>
-          <p>
-            A collection of C programs covering loops, arrays, functions, and
-            problem-solving fundamentals.
-          </p>
-          <p class="tags">C • Problem Solving</p>
-        </article>
-
-        <article class="card">
-          <div class="thumb placeholder">DS</div>
-          <h4>Data Structures Practice</h4>
-          <p>
-            Implementation and practice of core data structures as part of
-            academic learning.
-          </p>
-          <p class="tags">Data Structures • Algorithms</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- Education -->
-    <section id="education" class="section">
-      <h3>Education</h3>
-      <p>
-        <strong>Bachelor of Science in Data Science (Currently Pursuing)</strong><br>
-        Indian Institute of Technology Madras (IIT Madras)
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="site-brand">
+      <h1>Sanvedya Neware</h1>
+      <p class="tagline">
+        Data Science · Machine Learning · Backend Development
       </p>
-    </section>
+    </div>
 
-    <!-- Skills -->
-    <section id="skills" class="section skills">
-      <h3>Technical Skills</h3>
+    <nav class="nav">
+      <a class="btn" href="Sanvedya_Neware.pdf" download>Download Resume</a>
+    </nav>
+  </div>
+</header>
 
-      <div class="skill-columns">
-        <div class="skill-col">
-          <h4>Programming Languages</h4>
-          <p>Python • Java • JavaScript • C • C++ (Basic)</p>
+<main class="container">
 
-          <h4>Problem Solving & Competitive Programming</h4>
-          <p>
-            LeetCode: Solved 250+ problems (DSA). Participated in Hackathons.
-          </p>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-card">
+    <img src="profile.svg" alt="Sanvedya Neware" class="profile">
 
-          <h4>Data Science & Machine Learning</h4>
-          <p>
-            NumPy • Pandas • Matplotlib • Seaborn • Scikit-learn • EDA • Model Training
-          </p>
-        </div>
+    <div class="hero-body">
+      <h2>Hi, I’m Sanvedya.</h2>
+      <p class="lead">
+        I am a Computer Science and Data Science undergraduate with strong interests in
+        Machine Learning, Backend Development, and core Computer Science fundamentals.
+        I enjoy building practical systems and solving challenging problems.
+      </p>
 
-        <div class="skill-col">
-          <h4>Deep Learning & AI</h4>
-          <p>
-            TensorFlow/Keras • PyTorch • CNNs • RNNs • GANs • DDPM
-          </p>
-
-          <h4>Web Development</h4>
-          <p>HTML • CSS • Flask • Jinja2 • Vue.js • SQLAlchemy</p>
-
-          <h4>Databases & Cloud</h4>
-          <p>MySQL • SQLite • GCP • Microsoft Azure</p>
-        </div>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn ghost" href="#contact">Contact</a>
       </div>
-    </section>
-
-    <!-- Certifications -->
-    <section id="certifications" class="section">
-      <h3>Certifications</h3>
-
-      <details class="collapsible">
-        <summary>Show certifications</summary>
-        <ul>
-          <li>Foundational Level in Programming and Data Science — IIT Madras</li>
-          <li>Complete Linux Training — Udemy</li>
-          <li>Google Cloud Platform Workshops — IIT Madras</li>
-        </ul>
-      </details>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="section contact">
-      <h3>Contact</h3>
-
-      <form id="contact-form">
-        <label for="name">Name</label>
-        <input id="name" name="name" placeholder="Your name">
-
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" placeholder="you@example.com">
-
-        <label for="message">Message</label>
-        <textarea id="message" rows="5" placeholder="Write your message..."></textarea>
-
-        <button type="submit" class="btn primary">Send</button>
-      </form>
 
       <p class="muted">
-        Or email directly:
-        <a href="mailto:sanvedya.neware@gmail.com">sanvedya.neware@gmail.com</a>
-      </p>
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <p>
-        Built with ❤️ — Sanvedya Neware ·
-        <a href="https://github.com/Sonu0011Blue" target="_blank" rel="noopener">
-          GitHub
-        </a>
+        <a href="mailto:sanvedyaneware11@gmail.com">Email</a> ·
+        <a href="https://www.linkedin.com/in/sanvedya-neware-a434a82ba/" target="_blank">LinkedIn</a> ·
+        <a href="https://github.com/Sonu0011Blue" target="_blank">GitHub</a>
       </p>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <!-- JS -->
-  <script src="script.js"></script>
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <h3>Education</h3>
+
+  <p>
+    <strong>Bachelor of Science in Data Science (Currently Pursuing)</strong><br>
+    Indian Institute of Technology Madras (Online BS Degree)
+  </p>
+
+  <p>
+    <strong>Bachelor of Technology in Computer Science and Engineering (Currently Pursuing)</strong><br>
+    Government College of Engineering, Kolhapur
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section skills">
+  <h3>Technical Skills</h3>
+
+  <div class="skill-columns">
+    <div class="skill-col">
+      <h4>Programming Languages</h4>
+      <p>Python • Java • JavaScript • C • C++ (Basic)</p>
+
+      <h4>Problem Solving & Competitive Programming</h4>
+      <p>
+        Solved <strong>250+ DSA problems</strong> on LeetCode ·
+        Ranked in <strong>Top 28.47% worldwide</strong> (Weekly & Biweekly contests)
+      </p>
+
+      <h4>Data Science & Machine Learning</h4>
+      <p>
+        NumPy • Pandas • Scikit-learn • SciPy • Data Cleaning • Feature Engineering •
+        EDA • Model Training • Evaluation • Hyperparameter Tuning
+      </p>
+    </div>
+
+    <div class="skill-col">
+      <h4>Deep Learning & AI</h4>
+      <p>
+        Neural Networks • Backpropagation • TensorFlow/Keras • PyTorch •
+        CNNs • RNNs • BiRNNs • GANs • DDPMs • Optimization Techniques
+      </p>
+
+      <h4>Web Development & Backend</h4>
+      <p>Flask • HTML • CSS • Jinja2 • Vue.js • SQLAlchemy</p>
+
+      <h4>Databases, Cloud & Tools</h4>
+      <p>
+        MySQL • SQLite • GCP • Microsoft Azure • Git • GitHub •
+        Jupyter Notebook • VS Code • Google Colab
+      </p>
+
+      <h4>Operating Systems</h4>
+      <p>Linux (Ubuntu, CentOS) • Linux System Administration (Basics)</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section projects">
+  <h3>Projects</h3>
+
+  <div class="grid">
+    <article class="card">
+      <div class="thumb placeholder">Flask</div>
+      <h4>Smart Parking Management System</h4>
+      <p>
+        Full-stack web application to manage vehicle entry, exit, and parking slot availability.
+        Implemented backend logic using Flask and dynamic UI rendering using Jinja2.
+      </p>
+      <p class="tags">Flask • Jinja2 • HTML • CSS</p>
+    </article>
+
+    <article class="card">
+      <div class="thumb placeholder">ML</div>
+      <h4>Heart Disease Prediction System</h4>
+      <p>
+        End-to-end ML pipeline for heart disease prediction with preprocessing,
+        EDA, model training, and deployment as a Streamlit web app.
+      </p>
+      <p class="tags">Python • Scikit-learn • Streamlit</p>
+    </article>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section class="section">
+  <h3>Awards & Achievements</h3>
+
+  <ul>
+    <li>
+      Ranked in the <strong>Top 28.47% worldwide</strong> in LeetCode Weekly & Biweekly Contests (2024–2025)
+    </li>
+    <li>
+      Secured <strong>Top Grades</strong> in Statistics, Mathematics, Python, DSA,
+      Machine Learning, Java, and Generative AI — IIT Madras
+    </li>
+  </ul>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="section">
+  <h3>Certifications</h3>
+
+  <ul>
+    <li>Introduction to Deep Learning & Neural Networks with Keras — IBM (2026)</li>
+    <li>Foundational Level in Programming and Data Science — IIT Madras (2024)</li>
+    <li>Complete Linux Training — Udemy (2024)</li>
+    <li>Applied Vibe Coding, GCP, GitHub & ML Workshops — IIT Madras (2025)</li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <h3>Contact</h3>
+
+  <form id="contact-form">
+    <label for="name">Name</label>
+    <input id="name" name="name" placeholder="Your name">
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="you@example.com">
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="5" placeholder="Write your message..."></textarea>
+
+    <button type="submit" class="btn primary">Send</button>
+  </form>
+
+  <p class="muted">
+    Or email directly:
+    <a href="mailto:sanvedyaneware11@gmail.com">sanvedyaneware11@gmail.com</a>
+  </p>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      Built with ❤️ — Sanvedya Neware ·
+      <a href="https://github.com/Sonu0011Blue" target="_blank">GitHub</a>
+    </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
+
