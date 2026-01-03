@@ -8,200 +8,173 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <meta name="theme-color" content="#0b0b10">
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header class="site-header">
   <div class="container header-inner">
-    <div class="site-brand">
-      <h1>Sanvedya Neware</h1>
-      <p class="tagline">
-        Data Science · Machine Learning · Backend Development
-      </p>
+    <div>
+      <h1 class="logo">Sanvedya Neware</h1>
+      <p class="tagline">Data Science · Machine Learning · Backend Development</p>
     </div>
 
-    <nav class="nav">
-      <a class="btn" href="Sanvedya_Neware.pdf" download>Download Resume</a>
-    </nav>
+    <a class="btn primary" href="Sanvedya_Neware.pdf" download>Download Resume</a>
   </div>
 </header>
 
+<!-- MAIN -->
 <main class="container">
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-card">
-    <img src="profile.svg" alt="Sanvedya Neware" class="profile">
+  <img src="profile.svg" alt="Sanvedya Neware" class="profile">
 
-    <div class="hero-body">
-      <h2>Hi, I’m Sanvedya.</h2>
-      <p class="lead">
-        I am a Computer Science and Data Science undergraduate with strong interests in
-        Machine Learning, Backend Development, and core Computer Science fundamentals.
-        I enjoy building practical systems and solving challenging problems.
-      </p>
+  <div class="hero-text">
+    <h2>Building intelligent systems with data & code.</h2>
 
-      <div class="hero-actions">
-        <a class="btn primary" href="#projects">View Projects</a>
-        <a class="btn ghost" href="#contact">Contact</a>
-      </div>
+    <p>
+      I’m a Computer Science and Data Science undergraduate passionate about
+      Machine Learning, backend systems, and problem solving.
+      I enjoy turning ideas into reliable, real-world solutions.
+    </p>
 
-      <p class="muted">
-        <a href="mailto:sanvedyaneware11@gmail.com">Email</a> ·
-        <a href="https://www.linkedin.com/in/sanvedya-neware-a434a82ba/" target="_blank">LinkedIn</a> ·
-        <a href="https://github.com/Sonu0011Blue" target="_blank">GitHub</a>
-      </p>
+    <div class="hero-links">
+      <a href="mailto:sanvedyaneware11@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/sanvedya-neware-a434a82ba/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Sonu0011Blue" target="_blank">GitHub</a>
     </div>
   </div>
 </section>
 
 <!-- EDUCATION -->
-<section id="education" class="section">
-  <h3>Education</h3>
+<section class="section">
+  <h3 class="section-title">Education</h3>
 
-  <p>
-    <strong>Bachelor of Science in Data Science (Currently Pursuing)</strong><br>
-    Indian Institute of Technology Madras (Online BS Degree)
-  </p>
+  <div class="card">
+    <h4>Bachelor of Science in Data Science</h4>
+    <p class="muted">IIT Madras — Online BS Degree (Currently Pursuing)</p>
+  </div>
 
-  <p>
-    <strong>Bachelor of Technology in Computer Science and Engineering (Currently Pursuing)</strong><br>
-    Government College of Engineering, Kolhapur
-  </p>
+  <div class="card">
+    <h4>Bachelor of Technology in Computer Science & Engineering</h4>
+    <p class="muted">Government College of Engineering, Kolhapur (Currently Pursuing)</p>
+  </div>
 </section>
 
 <!-- SKILLS -->
-<section id="skills" class="section skills">
-  <h3>Technical Skills</h3>
+<section class="section">
+  <h3 class="section-title">Technical Skills</h3>
 
-  <div class="skill-columns">
-    <div class="skill-col">
-      <h4>Programming Languages</h4>
-      <p>Python • Java • JavaScript • C • C++ (Basic)</p>
+  <div class="skill-grid">
 
-      <h4>Problem Solving & Competitive Programming</h4>
-      <p>
-        Solved <strong>250+ DSA problems</strong> on LeetCode ·
-        Ranked in <strong>Top 28.47% worldwide</strong> (Weekly & Biweekly contests)
-      </p>
-
-      <h4>Data Science & Machine Learning</h4>
-      <p>
-        NumPy • Pandas • Scikit-learn • SciPy • Data Cleaning • Feature Engineering •
-        EDA • Model Training • Evaluation • Hyperparameter Tuning
-      </p>
+    <div class="card">
+      <h4>Programming</h4>
+      <ul class="pill-list">
+        <li>Python</li><li>Java</li><li>C</li><li>C++</li><li>JavaScript</li>
+      </ul>
     </div>
 
-    <div class="skill-col">
+    <div class="card">
+      <h4>Machine Learning</h4>
+      <ul class="pill-list">
+        <li>NumPy</li><li>Pandas</li><li>Scikit-learn</li>
+        <li>EDA</li><li>Feature Engineering</li><li>Model Evaluation</li>
+      </ul>
+    </div>
+
+    <div class="card">
       <h4>Deep Learning & AI</h4>
-      <p>
-        Neural Networks • Backpropagation • TensorFlow/Keras • PyTorch •
-        CNNs • RNNs • BiRNNs • GANs • DDPMs • Optimization Techniques
-      </p>
-
-      <h4>Web Development & Backend</h4>
-      <p>Flask • HTML • CSS • Jinja2 • Vue.js • SQLAlchemy</p>
-
-      <h4>Databases, Cloud & Tools</h4>
-      <p>
-        MySQL • SQLite • GCP • Microsoft Azure • Git • GitHub •
-        Jupyter Notebook • VS Code • Google Colab
-      </p>
-
-      <h4>Operating Systems</h4>
-      <p>Linux (Ubuntu, CentOS) • Linux System Administration (Basics)</p>
+      <ul class="pill-list">
+        <li>TensorFlow</li><li>PyTorch</li><li>CNNs</li>
+        <li>RNNs</li><li>GANs</li><li>DDPMs</li>
+      </ul>
     </div>
+
+    <div class="card">
+      <h4>Backend & Tools</h4>
+      <ul class="pill-list">
+        <li>Flask</li><li>Jinja2</li><li>SQLAlchemy</li>
+        <li>MySQL</li><li>SQLite</li><li>Git</li><li>GCP</li>
+      </ul>
+    </div>
+
   </div>
 </section>
 
 <!-- PROJECTS -->
-<section id="projects" class="section projects">
-  <h3>Projects</h3>
+<section class="section">
+  <h3 class="section-title">Projects</h3>
 
-  <div class="grid">
-    <article class="card">
-      <div class="thumb placeholder">Flask</div>
+  <div class="project-grid">
+
+    <div class="card">
       <h4>Smart Parking Management System</h4>
       <p>
-        Full-stack web application to manage vehicle entry, exit, and parking slot availability.
-        Implemented backend logic using Flask and dynamic UI rendering using Jinja2.
+        Full-stack Flask application for managing parking slots, vehicle entry/exit,
+        and real-time occupancy tracking.
       </p>
-      <p class="tags">Flask • Jinja2 • HTML • CSS</p>
-    </article>
+      <p class="muted">Flask · Jinja2 · HTML · CSS</p>
+    </div>
 
-    <article class="card">
-      <div class="thumb placeholder">ML</div>
+    <div class="card">
       <h4>Heart Disease Prediction System</h4>
       <p>
-        End-to-end ML pipeline for heart disease prediction with preprocessing,
-        EDA, model training, and deployment as a Streamlit web app.
+        End-to-end ML pipeline with data preprocessing, EDA, model training,
+        and deployment via Streamlit.
       </p>
-      <p class="tags">Python • Scikit-learn • Streamlit</p>
-    </article>
+      <p class="muted">Python · Scikit-learn · Streamlit</p>
+    </div>
+
   </div>
 </section>
 
 <!-- ACHIEVEMENTS -->
 <section class="section">
-  <h3>Awards & Achievements</h3>
+  <h3 class="section-title">Achievements</h3>
 
-  <ul>
-    <li>
-      Ranked in the <strong>Top 28.47% worldwide</strong> in LeetCode Weekly & Biweekly Contests (2024–2025)
-    </li>
-    <li>
-      Secured <strong>Top Grades</strong> in Statistics, Mathematics, Python, DSA,
-      Machine Learning, Java, and Generative AI — IIT Madras
-    </li>
-  </ul>
+  <div class="project-grid">
+    <div class="card">
+      <h4>LeetCode Contests</h4>
+      <p>Top <strong>28.47%</strong> worldwide in Weekly & Biweekly contests</p>
+    </div>
+
+    <div class="card">
+      <h4>IIT Madras Academics</h4>
+      <p>Top grades in ML, DSA, Statistics, Java & GenAI</p>
+    </div>
+  </div>
 </section>
 
 <!-- CERTIFICATIONS -->
 <section class="section">
-  <h3>Certifications</h3>
+  <h3 class="section-title">Certifications</h3>
 
-  <ul>
-    <li>Introduction to Deep Learning & Neural Networks with Keras — IBM (2026)</li>
-    <li>Foundational Level in Programming and Data Science — IIT Madras (2024)</li>
-    <li>Complete Linux Training — Udemy (2024)</li>
-    <li>Applied Vibe Coding, GCP, GitHub & ML Workshops — IIT Madras (2025)</li>
-  </ul>
+  <div class="card-list">
+    <div class="card">IBM — Deep Learning & Neural Networks with Keras</div>
+    <div class="card">IIT Madras — Foundational Level in Data Science</div>
+    <div class="card">Udemy — Complete Linux Training</div>
+    <div class="card">IIT Madras — ML, GCP & GitHub Workshops</div>
+  </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="section contact">
-  <h3>Contact</h3>
+<section class="section contact">
+  <h3 class="section-title">Contact</h3>
 
   <form id="contact-form">
-    <label for="name">Name</label>
-    <input id="name" name="name" placeholder="Your name">
-
-    <label for="email">Email</label>
-    <input id="email" name="email" type="email" placeholder="you@example.com">
-
-    <label for="message">Message</label>
-    <textarea id="message" rows="5" placeholder="Write your message..."></textarea>
-
-    <button type="submit" class="btn primary">Send</button>
+    <input id="name" placeholder="Your name">
+    <input id="email" type="email" placeholder="Your email">
+    <textarea id="message" rows="4" placeholder="Your message"></textarea>
+    <button class="btn primary">Send Message</button>
   </form>
-
-  <p class="muted">
-    Or email directly:
-    <a href="mailto:sanvedyaneware11@gmail.com">sanvedyaneware11@gmail.com</a>
-  </p>
 </section>
 
 </main>
 
 <footer class="site-footer">
-  <div class="container">
-    <p>
-      Built with ❤️ — Sanvedya Neware ·
-      <a href="https://github.com/Sonu0011Blue" target="_blank">GitHub</a>
-    </p>
-  </div>
+  <p>© 2026 Sanvedya Neware · Built with ❤️</p>
 </footer>
 
 <script src="script.js"></script>
