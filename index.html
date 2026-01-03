@@ -12,7 +12,6 @@
 
 <body>
 
-<!-- HEADER -->
 <header class="site-header">
   <div class="container header-inner">
     <div>
@@ -24,27 +23,37 @@
   </div>
 </header>
 
-<!-- MAIN -->
 <main class="container">
 
 <!-- HERO -->
 <section class="hero">
-  <img src="profile.svg" alt="Sanvedya Neware" class="profile">
+  <div class="hero-left">
 
-  <div class="hero-text">
-    <h2>Building intelligent systems with data & code.</h2>
+    <div class="avatar">
+      <span>SN</span>
+    </div>
 
-    <p>
-      I’m a Computer Science and Data Science undergraduate passionate about
-      Machine Learning, backend systems, and problem solving.
-      I enjoy turning ideas into reliable, real-world solutions.
+    <h2 class="hero-title">Hi, I’m Sanvedya.</h2>
+
+    <p class="hero-subtitle">
+      Computer Science & Data Science undergraduate focused on
+      <strong>Machine Learning</strong>, <strong>Backend Development</strong>,
+      and building reliable real-world systems.
     </p>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#contact" class="btn ghost">Contact</a>
+    </div>
 
     <div class="hero-links">
       <a href="mailto:sanvedyaneware11@gmail.com">Email</a>
+      <span>·</span>
       <a href="https://www.linkedin.com/in/sanvedya-neware-a434a82ba/" target="_blank">LinkedIn</a>
+      <span>·</span>
       <a href="https://github.com/Sonu0011Blue" target="_blank">GitHub</a>
     </div>
+
   </div>
 </section>
 
@@ -80,7 +89,7 @@
       <h4>Machine Learning</h4>
       <ul class="pill-list">
         <li>NumPy</li><li>Pandas</li><li>Scikit-learn</li>
-        <li>EDA</li><li>Feature Engineering</li><li>Model Evaluation</li>
+        <li>EDA</li><li>Feature Engineering</li>
       </ul>
     </div>
 
@@ -95,8 +104,8 @@
     <div class="card">
       <h4>Backend & Tools</h4>
       <ul class="pill-list">
-        <li>Flask</li><li>Jinja2</li><li>SQLAlchemy</li>
-        <li>MySQL</li><li>SQLite</li><li>Git</li><li>GCP</li>
+        <li>Flask</li><li>SQLAlchemy</li><li>MySQL</li>
+        <li>SQLite</li><li>Git</li><li>GCP</li>
       </ul>
     </div>
 
@@ -104,16 +113,15 @@
 </section>
 
 <!-- PROJECTS -->
-<section class="section">
+<section id="projects" class="section">
   <h3 class="section-title">Projects</h3>
 
   <div class="project-grid">
-
     <div class="card">
       <h4>Smart Parking Management System</h4>
       <p>
-        Full-stack Flask application for managing parking slots, vehicle entry/exit,
-        and real-time occupancy tracking.
+        Full-stack Flask application for managing vehicle entry, exit,
+        parking slots, and real-time occupancy.
       </p>
       <p class="muted">Flask · Jinja2 · HTML · CSS</p>
     </div>
@@ -121,46 +129,16 @@
     <div class="card">
       <h4>Heart Disease Prediction System</h4>
       <p>
-        End-to-end ML pipeline with data preprocessing, EDA, model training,
-        and deployment via Streamlit.
+        End-to-end ML pipeline with preprocessing, EDA,
+        model training, and Streamlit deployment.
       </p>
       <p class="muted">Python · Scikit-learn · Streamlit</p>
     </div>
-
-  </div>
-</section>
-
-<!-- ACHIEVEMENTS -->
-<section class="section">
-  <h3 class="section-title">Achievements</h3>
-
-  <div class="project-grid">
-    <div class="card">
-      <h4>LeetCode Contests</h4>
-      <p>Top <strong>28.47%</strong> worldwide in Weekly & Biweekly contests</p>
-    </div>
-
-    <div class="card">
-      <h4>IIT Madras Academics</h4>
-      <p>Top grades in ML, DSA, Statistics, Java & GenAI</p>
-    </div>
-  </div>
-</section>
-
-<!-- CERTIFICATIONS -->
-<section class="section">
-  <h3 class="section-title">Certifications</h3>
-
-  <div class="card-list">
-    <div class="card">IBM — Deep Learning & Neural Networks with Keras</div>
-    <div class="card">IIT Madras — Foundational Level in Data Science</div>
-    <div class="card">Udemy — Complete Linux Training</div>
-    <div class="card">IIT Madras — ML, GCP & GitHub Workshops</div>
   </div>
 </section>
 
 <!-- CONTACT -->
-<section class="section contact">
+<section id="contact" class="section contact">
   <h3 class="section-title">Contact</h3>
 
   <form id="contact-form">
